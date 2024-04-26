@@ -8,10 +8,8 @@ export function taskFirst() {
   }
   
   export function taskNext() {
-    const suffix = getLast(); // Using const here
     let combination = 'But sometimes let';
-    combination += suffix; // Reassigning combination here
+    combination += getLast();
   
     return combination;
   }
-  
